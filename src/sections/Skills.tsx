@@ -1,0 +1,39 @@
+export default function Skills() {
+  return (
+    <div className="text-black">
+      <h3 className="text-xs font-bold uppercase tracking-widest text-black">Habilidades</h3>
+      <div className="mt-6 space-y-10">
+        <div className="border-l border-lightest-navy pl-6">
+          <h4 className="text-sm font-semibold text-black">Linguagens de Programacao</h4>
+          <ul className="mt-3 grid grid-cols-1 gap-2 text-sm text-black sm:grid-cols-2">
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+        <div className="border-l border-lightest-navy pl-6">
+          <h4 className="text-sm font-semibold text-black">Bibliotecas e Frameworks</h4>
+          <ul className="mt-3 grid grid-cols-1 gap-2 text-sm text-black sm:grid-cols-2">
+            <li>React</li>
+            <li>Vite</li>
+            <li>Node.js</li>
+            <li>TailwindCSS</li>
+            <li>Prisma ORM</li>
+          </ul>
+        </div>
+
+        <div className="border-l border-lightest-navy pl-6">
+          <h4 className="text-sm font-semibold text-black">Ferramentas e Plataformas</h4>
+          <ul className="mt-3 grid grid-cols-1 gap-2 text-sm text-black sm:grid-cols-2">
+            <li>Git e GitHub</li>
+            <li>Docker e Docker Compose</li>
+            <li>PostgreSQL</li>
+            <li>SanityCMS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
