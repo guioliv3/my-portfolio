@@ -9,6 +9,7 @@
   --color-white: #e6f1ff;
   --color-teal: #64ffda;
   --color-merino: #F6F1EA;
+  --color-anthracite: #2b2b2b;
 
   /* Fontes (pode manter as que já gosta ou usar Inter/Mono) */
   --font-sans: 'Inter', sans-serif;
@@ -18,15 +19,21 @@
 /* Base style similar ao seu projeto anterior */
 @layer base {
   body {
-    @apply bg-[--color-merino] text-black antialiased selection:bg-teal/20 selection:text-teal;
+    background-color: #2b2b2b;
+    @apply text-[#E5E7EB] antialiased selection:bg-teal/20 selection:text-teal;
   }
 
   h1, h2, h3 {
-    @apply text-black font-bold;
+    @apply text-[#E5E7EB] font-bold;
   }
 
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+html, body, #root {
+  min-height: 100%;
+  background-color: #2b2b2b;
 }

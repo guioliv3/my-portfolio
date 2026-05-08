@@ -22,7 +22,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
           <motion.div
             role="dialog"
             aria-modal="true"
-            className="w-full max-w-2xl rounded-xl border border-lightest-navy bg-[--color-merino] p-6 text-black shadow-xl"
+            className="w-full max-w-2xl rounded-xl border border-[#E5E7EB] bg-[#2b2b2b] p-6 text-[#E5E7EB] shadow-xl"
             onClick={(event) => event.stopPropagation()}
             initial={{ opacity: 0, scale: 0.98, y: 8 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -31,23 +31,32 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
           >
             <div className="flex items-start justify-between gap-6">
               <div>
-                <p className="text-xs font-bold uppercase tracking-widest text-black">
+                <p className="text-xs font-bold uppercase tracking-widest text-[#E5E7EB]">
                   Projeto
                 </p>
-                <h4 className="mt-2 text-2xl font-semibold text-black">
+                <h4 className="mt-2 text-2xl font-semibold text-[#E5E7EB]">
                   {project.title}
                 </h4>
               </div>
               <button
                 type="button"
                 onClick={onClose}
-                className="rounded-full border border-lightest-navy px-3 py-1 text-xs text-black transition hover:text-black"
+                className="rounded-full border border-[#E5E7EB] px-3 py-1 text-xs text-[#E5E7EB] transition hover:text-[#E5E7EB]"
               >
                 Fechar
               </button>
             </div>
 
-            <p className="mt-4 text-sm leading-relaxed text-black">
+            <div className="mt-4 overflow-hidden rounded-lg border border-[#E5E7EB]">
+              <img
+                src={project.image}
+                alt={project.title}
+                loading="lazy"
+                className="h-full w-full object-cover"
+              />
+            </div>
+
+            <p className="mt-4 text-sm leading-relaxed text-[#E5E7EB]">
               {project.summary}
             </p>
 
@@ -55,7 +64,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               {project.tech.map((tech) => (
                 <span
                   key={tech}
-                  className="rounded-full border border-lightest-navy px-3 py-1 text-xs text-black"
+                  className="rounded-full border border-[#E5E7EB] px-3 py-1 text-xs text-[#E5E7EB]"
                 >
                   {tech}
                 </span>
@@ -68,7 +77,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                   href={project.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-black transition hover:text-black"
+                  className="text-[#E5E7EB] transition hover:text-[#E5E7EB]"
                 >
                   Link do projeto
                 </a>
@@ -78,7 +87,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                   href={project.repo}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-black transition hover:text-black"
+                  className="text-[#E5E7EB] transition hover:text-[#E5E7EB]"
                 >
                   Repositorio
                 </a>

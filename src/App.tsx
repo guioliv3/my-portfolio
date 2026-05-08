@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       {/* Fundo visual fixo global */}
-      <div className="fixed inset-0 -z-10 bg-[--color-merino]">
+      <div className="fixed inset-0 -z-10 bg-[#2b2b2b]">
         <div className="absolute inset-0 bg-[radial-gradient(600px_at_var(--mouse-x)_var(--mouse-y),rgba(29,78,216,0.15),transparent)]" />
       </div>
 
@@ -19,16 +19,15 @@ function App() {
           {/* COLUNA ESQUERDA: Fixa no topo em telas grandes */}
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
-              <h1 className="text-4xl font-bold tracking-tight text-black sm:text-5xl">
+              <h1 className="text-4xl font-bold tracking-tight text-[#E5E7EB] sm:text-5xl">
                 Guilherme Henrique <br /> 
                 de Oliveira
               </h1>
-              <h2 className="mt-3 text-lg font-medium tracking-tight text-black sm:text-xl">
+              <h2 className="mt-3 text-lg font-medium tracking-tight text-[#E5E7EB] sm:text-xl">
                 Full Stack Developer
               </h2>
-              <p className="mt-4 max-w-xs leading-normal text-black">
-                Desenvolvedor Full-stack que cria interfaces modernas e soluções digitais performáticas, transformando ideias em produtos funcionais e bem estruturados.
-              </p>
+              <p className="mt-4 max-w-xs leading-normal text-[#E5E7EB]">
+Desenvolvedor Full-stack e graduando em Desenvolvimento de Software pela FATEC Jacareí. Projeto interfaces sofisticadas e arquiteturas de alta performance, transformando visões complexas em produtos digitais funcionais e  estruturados.              </p>
               {/* O Menu de navegação que criaremos a seguir */}
               <Nav />
             </div>

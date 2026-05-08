@@ -14,7 +14,7 @@ export const projects: Project[] = [
     id: 'agrirslab',
     title: 'AgriRS Lab Website',
     summary:
-      'Desenvolvimento de um website para o laboratório de Sensoriamento Remoto Agrícola do INPE com área administrativa para gerenciamento de conteúdo.',
+      'Desenvolvimento de um website para o laboratório de Sensoriamento Remoto Agrícola do INPE com área administrativa para gerenciamento de conteúdo. Responsável pela documentação do projeto, pelo front-end e modelagem do banco de dados.',
     image: '/projectsimg/agrirslab.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'PostgreSQL'],
     link: '',
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     id: 'chatbot-fatec',
     title: 'Chatbot para FATEC Jacareí (EM ANDAMENTO)',
     summary:
-      'Desenvolvimento de um chatbot para a FATEC Jacareí, com o objetivo de auxiliar os alunos e funcionários com informações sobre cursos, eventos e serviços.',
+      'Desenvolvimento de um chatbot para a FATEC Jacareí, com o objetivo de auxiliar os alunos e funcionários com informações sobre cursos, eventos e serviços. Responsável pelo desenvolvimento do backend.',
     image: '/projectsimg/chatbot.png',
     tech: ['TypeScript', 'React', 'TailwindCSS', 'PostgreSQL', 'Docker', 'Prisma ORM'],
     link: '',

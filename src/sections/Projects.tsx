@@ -8,8 +8,8 @@ export default function Projects() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
 
   return (
-    <div className="text-black">
-      <h3 className="text-xs font-bold uppercase tracking-widest text-black">Projetos</h3>
+    <div className="text-[#E5E7EB]">
+      <h3 className="text-xs font-bold uppercase tracking-widest text-[#E5E7EB]">Projetos</h3>
 
       <div className="mt-8 grid gap-6">
         {projects.map((project) => (
