@@ -17,7 +17,7 @@ export const projects: Project[] = [
       'Criação de um website para o estúdio de arquitetura Nuestro, focada em apresentar seus projetos e serviços de forma elegante e responsiva, e levar autonomia para o cliente na atualização de projetos.',
     image: '/projectsimg/nuestro-arquitetura.png',
     tech: ['Wordpress', 'PHP', 'HTML', 'CSS', 'JavaScript'],
-    link: 'https://nuestro.com.br/',
+    link: 'https://www.nuestro.com.br/',
     repo: '',
   },
 
