@@ -26,8 +26,8 @@ function App() {
               <h2 className="mt-3 text-lg font-medium tracking-tight text-[#E5E7EB] sm:text-xl">
                 Full Stack Developer
               </h2>
-              <p className="mt-4 max-w-xs leading-normal text-[#E5E7EB]">
-Desenvolvedor Full-stack e graduando em Desenvolvimento de Software pela FATEC Jacareí. Projeto interfaces sofisticadas e arquiteturas de alta performance, transformando visões complexas em produtos digitais funcionais e  estruturados.              </p>
+              <p className="mt-4 max-w-xs leading-normal text-[12px] text-[#E5E7EB]">
+Desenvolvedor Full-stack e graduando em Desenvolvimento de Software pela FATEC Jacareí. Especializado na criação de interfaces sofisticadas e arquiteturas de alta performance, desenvolvendo experiências digitais que unem design, funcionalidade e estrutura técnica sólida. Transformo ideias complexas em produtos modernos, estratégicos e bem estruturados.              </p>
               {/* O Menu de navegação que criaremos a seguir */}
               <Nav />
             </div>

@@ -3,7 +3,7 @@ export type Project = {
   id: string;
   title: string;
   summary: string;
-  image: string; // Updated to use public path
+  image: string; 
   tech: string[];
   link?: string;
   repo?: string;
@@ -11,20 +11,21 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'agrirslab',
-    title: 'AgriRS Lab Website',
+    id: 'nuestro-arquitetura',
+    title: 'Website para Estúdio de arquitetura Nuestro',
     summary:
-      'Desenvolvimento de um website para o laboratório de Sensoriamento Remoto Agrícola do INPE com área administrativa para gerenciamento de conteúdo. Responsável pela documentação do projeto, pelo front-end e modelagem do banco de dados.',
-    image: '/projectsimg/agrirslab.png',
-    tech: ['HTML', 'CSS', 'JavaScript', 'PostgreSQL'],
-    link: '',
-    repo: 'https://github.com/NightHawksDevelopers/ABP-1',
+      'Criação de um website para o estúdio de arquitetura Nuestro, focada em apresentar seus projetos e serviços de forma elegante e responsiva, e levar autonomia para o cliente na atualização de projetos.',
+    image: '/projectsimg/nuestro-arquitetura.png',
+    tech: ['Wordpress', 'PHP', 'HTML', 'CSS', 'JavaScript'],
+    link: 'https://nuestro.com.br/',
+    repo: '',
   },
+
   {
     id: 'estudio-muda',
-    title: 'Landing Page Estúdio de arquitetura MUDA',
+    title: 'Website para Estúdio de arquitetura MUDA',
     summary:
-      'Criação de uma landing page para o estúdio de arquitetura MUDA, focada em apresentar seus projetos e serviços de forma elegante e responsiva, e levar autonomia para o cliente na atualização de projetos.',
+      'Criação de um website para o estúdio de arquitetura MUDA, focada em apresentar seus projetos e serviços de forma elegante e responsiva, e levar autonomia para o cliente na atualização de projetos.',
     image: '/projectsimg/estudio-muda.png',
     tech: ['TypeScript', 'React', 'TailwindCSS', 'SanityCMS'],
     link: 'https://www.estudiomuda.com.br/',
@@ -39,5 +40,15 @@ export const projects: Project[] = [
     tech: ['TypeScript', 'React', 'TailwindCSS', 'PostgreSQL', 'Docker', 'Prisma ORM'],
     link: '',
     repo: 'https://github.com/seliganessesdevs/ABP---2DSM-2026',
+  },
+   {
+    id: 'agrirslab',
+    title: 'AgriRS Lab Website',
+    summary:
+      'Desenvolvimento de um website para o laboratório de Sensoriamento Remoto Agrícola do INPE com área administrativa para gerenciamento de conteúdo. Responsável pela documentação do projeto, pelo front-end e modelagem do banco de dados.',
+    image: '/projectsimg/agrirslab.png',
+    tech: ['HTML', 'CSS', 'JavaScript', 'PostgreSQL'],
+    link: '',
+    repo: 'https://github.com/NightHawksDevelopers/ABP-1',
   },
 ];

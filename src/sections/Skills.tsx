@@ -31,6 +31,7 @@ export default function Skills() {
             <li>Docker e Docker Compose</li>
             <li>PostgreSQL</li>
             <li>SanityCMS</li>
+            <li>Wordpress</li>
           </ul>
         </div>
       </div>
