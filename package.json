@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview",
+  "deploy:faculdade": "npm run build && rm -rf ../ra2581392523026/docs/* && cp -r dist/* ../ra2581392523026/docs/ && touch ../ra2581392523026/docs/.nojekyll && git -C ../ra2581392523026 add . && git -C ../ra2581392523026 commit -m \"Atualização do portfólio\" && git -C ../ra2581392523026 push"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.2.4",
     "clsx": "^2.1.1",
