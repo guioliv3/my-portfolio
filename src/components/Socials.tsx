@@ -1,51 +1,79 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import { motion } from 'framer-motion';
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaWhatsapp,
+} from 'react-icons/fa';
+
 export default function Socials() {
   return (
-    <ul className="ml-1 mt-8 flex items-center gap-5">
+    <motion.ul
+      className="ml-1 mt-8 flex items-center gap-5"
+      initial={{ opacity: 0, y: 8 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.3,
+      }}
+    >
       <li>
-        <a 
-          href="https://github.com/guioliv3" 
-          target="_blank" 
+        <motion.a
+          href="https://github.com/guioliv3"
+          target="_blank"
           rel="noreferrer"
-          className="text-[#E5E7EB] hover:text-[#E5E7EB] transition-colors"
+          className="text-[#E5E7EB]"
+          whileHover={{ y: -3 }}
+          transition={{ duration: 0.18 }}
         >
           <FaGithub size={24} />
           <span className="sr-only">GitHub</span>
-        </a>
+        </motion.a>
       </li>
+
       <li>
-        <a 
-          href="https://www.linkedin.com/in/guilhermehenriquedeoliveira5" 
-          target="_blank" 
+        <motion.a
+          href="https://www.linkedin.com/in/guilhermehenriquedeoliveira5"
+          target="_blank"
           rel="noreferrer"
-          className="text-[#E5E7EB] hover:text-[#E5E7EB] transition-colors"
+          className="text-[#E5E7EB]"
+          whileHover={{ y: -3 }}
+          transition={{ duration: 0.18 }}
         >
           <FaLinkedin size={24} />
           <span className="sr-only">LinkedIn</span>
-        </a>
+        </motion.a>
       </li>
-            <li>
-        <a 
-          href="mailto:guilherme.hnr.oli@gmail.com" 
-          target="_blank" 
+
+      
+      <li>
+        <motion.a
+          href="mailto:guilherme.hnr.oli@gmail.com"
+          target="_blank"
           rel="noreferrer"
-          className="text-[#E5E7EB] hover:text-[#E5E7EB] transition-colors"
+          className="text-[#E5E7EB]"
+          whileHover={{ y: -3 }}
+          transition={{ duration: 0.18 }}
         >
           <FaEnvelope size={24} />
           <span className="sr-only">Email</span>
-        </a>
+        </motion.a>
       </li>
+
       <li>
-        <a 
-          href="https://wa.me/5512988534827" 
-          target="_blank" 
+        <motion.a
+          href="https://wa.me/5512988534827"
+          target="_blank"
           rel="noreferrer"
-          className="text-[#E5E7EB] hover:text-[#E5E7EB] transition-colors"
+          className="text-[#E5E7EB]"
+          whileHover={{ y: -3 }}
+          transition={{ duration: 0.18 }}
         >
           <FaWhatsapp size={24} />
           <span className="sr-only">WhatsApp</span>
-        </a>
+        </motion.a>
       </li>
-    </ul>
+     
+    </motion.ul>
   );
 }
