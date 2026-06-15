@@ -72,7 +72,7 @@ export default function Socials() {
           <FaWhatsapp size={24} />
           <span className="sr-only">WhatsApp</span>
         </motion.a>
-      </li>
+      </li> 
      
     </motion.ul>
   );

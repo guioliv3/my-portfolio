@@ -12,7 +12,7 @@ export type Project = {
 export const projectsacademic: Project[] = [
       {
     id: 'chatbot-fatec',
-    title: 'Chatbot para FATEC Jacareí - 2º Semestre',
+    title: 'Chatbot para FATEC Jacareí — 2DSM - 2º Sem 2026 ',
     summary:
       'Desenvolvimento de um chatbot para a FATEC Jacareí, com o objetivo de auxiliar os alunos e funcionários com informações sobre cursos, eventos e serviços. Responsável pelo desenvolvimento do backend.',
     image: `${import.meta.env.BASE_URL}projectsimg/chatbot.png`,
@@ -22,7 +22,7 @@ export const projectsacademic: Project[] = [
   },
    {
     id: 'agrirslab',
-    title: 'AgriRS Lab Website - 1º Semestre',
+    title: 'AgriRS Lab Website — 1DSM - 1º Sem. 2025',
     summary:
       'Desenvolvimento de um website para o laboratório de Sensoriamento Remoto Agrícola do INPE com área administrativa para gerenciamento de conteúdo. Responsável pela documentação do projeto, pelo front-end e modelagem do banco de dados.',
     image: `${import.meta.env.BASE_URL}projectsimg/agrirslab.png`,
