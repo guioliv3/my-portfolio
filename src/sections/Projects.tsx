@@ -16,7 +16,6 @@ export default function Projects() {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
     >
-
             {/* Seção Profissional */}
       <h3 className="inline-block text-lg font-bold uppercase tracking-widest text-white after:mt-1 after:block after:h-[2px] after:w-full after:bg-white/30">
         Projetos Profissionais
@@ -31,6 +30,7 @@ export default function Projects() {
           />
         ))}
       </div>
+
 
       {/* Seção Acadêmica */}
       <h3 className="mt-16 inline-block text-lg font-bold uppercase tracking-widest text-white after:mt-1 after:block after:h-[2px] after:w-full after:bg-white/30">
@@ -53,6 +53,9 @@ export default function Projects() {
         project={activeProject}
         onClose={() => setActiveProject(null)}
       />
+
+
+
     </motion.div>
   );
 }
