@@ -10,11 +10,7 @@ export default function About() {
       transition={{ duration: 0.6 }}
     >
       <p>
-        Desenvolvedor Full Stack e graduando em Desenvolvimento de Software
-        Multiplataforma pela FATEC Jacareí (2025–2028). Desenvolvo aplicações
-        web utilizando React, TypeScript, PostgreSQL e Docker, participando de
-        todas as etapas do desenvolvimento, da modelagem de dados à entrega da
-        interface final.
+        Desenvolvedor web especializado em criar aplicações rápidas, escaláveis e com design limpo e minimalista. Utilizo tecnologias modernas como React, TypeScript, Vite e Tailwind CSS para transformar ideias em interfaces fluidas e de alta performance. Além do código, foco na entrega de valor real, integrando soluções como Headless CMS (Sanity) para garantir que os clientes tenham total autonomia sobre seus conteúdos. Meu objetivo é sempre unir estética, usabilidade e uma arquitetura sólida.
       </p>
     </motion.div>
   );
