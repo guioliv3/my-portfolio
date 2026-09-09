@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
 import ProjectModal from '../components/ProjectModal';
-import { projects, projectsacademic, type Project } from '../data/projects';
+import { projects, type Project } from '../data/projects';
 
 export default function Projects() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
@@ -33,7 +33,7 @@ export default function Projects() {
 
 
       {/* Seção Acadêmica */}
-      <h3 className="mt-16 inline-block text-lg font-bold uppercase tracking-widest text-white after:mt-1 after:block after:h-[2px] after:w-full after:bg-white/30">
+      {/* <h3 className="mt-16 inline-block text-lg font-bold uppercase tracking-widest text-white after:mt-1 after:block after:h-[2px] after:w-full after:bg-white/30">
   Projetos Acadêmicos
 </h3>
 
@@ -45,7 +45,7 @@ export default function Projects() {
             onClick={() => setActiveProject(project)}
           />
         ))}
-      </div>
+      </div> */}
 
 
 
